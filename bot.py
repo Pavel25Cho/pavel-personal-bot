@@ -8,6 +8,6 @@ ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 env.load(ROOT_DIR)
 
 import src.spotify as spotify
-import src.telegram as telegram
+# import src.telegram as telegram
 
-    # spotify.setup()
+spotify.setup()
